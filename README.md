@@ -2,15 +2,20 @@
 
 A new Flutter project.
 
-## Getting Started
+# InspireMe - Daily Motivation App
 
-This project is a starting point for a Flutter application.
+A Flutter app that displays motivational quotes from the ZenQuotes API.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Random quotes from ZenQuotes `/random` endpoint with rate limiting
+- Fallback quotes for network failures
+- Light/dark theme toggle
+- Favorite quotes with SharedPreferences
+- Quote sharing via share_plus
+- Soothing chime on new quote fetch
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup (android emulator bluestack)
+1. Clone the repo
+2. Run `flutter pub get`
+3. Add `smooth.mp3` to `assets/sounds/` (download from freesound.org)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
