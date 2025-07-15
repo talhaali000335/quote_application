@@ -1,4 +1,4 @@
-# flutter_application_1
+# quotte app
 
 A new Flutter project.
 
